@@ -10,3 +10,10 @@ spec:
       - configMapRef:
            name: wordpress-cm
     command: ["/bin/sh", "-c", "while true; do sleep 1; done"]
+    resources:
+        requests:
+          memory: "256Mi"
+          cpu: "500m"
+        limits:
+          memory: "512Mi"
+          cpu: "1000m"

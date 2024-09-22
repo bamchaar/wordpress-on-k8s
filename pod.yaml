@@ -24,4 +24,4 @@
 #         - configMapRef:
 #             name: wordpress-cm
 #       ports:
-#         - containerPort: 80
+ #         - containerPort: 80
